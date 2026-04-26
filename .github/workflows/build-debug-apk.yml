@@ -46,8 +46,12 @@ jobs:
           gradle-version: 6.7.1
           validate-wrappers: false
 
+            - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Build debug APK
         run: ./gradlew --no-daemon assembleDebug
+
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
