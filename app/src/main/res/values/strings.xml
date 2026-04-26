@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sunmi T2 WebPrint Demo</string>
+    <string name="action_reload">重新載入</string>
+    <string name="action_test_print">測試列印</string>
+    <string name="default_url">https://jess0937588151-hue.github.io/2234/</string>
+    <string name="printer_service_package">woyou.aidlservice.jiuiv5</string>
+    <string name="printer_service_action">woyou.aidlservice.jiuiv5.IWoyouService</string>
+</resources>
